@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Bank"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textIsSelectable="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Donar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textIsSelectable="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"/>
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:hint="City"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/pass_id"
+        android:layout_below="@+id/user_id"
+        android:layout_width="match_parent"
+        android:hint="Blood Group"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/loginButton_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_id"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Search"
+        android:textColor="#E40E0E"
+        android:layout_margin="5dp"
+        tools:background="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/registerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_id"
+        android:layout_marginTop="5dp"
+        android:text="Register"
+        android:textColor="#E40E0E"
+        android:layout_margin="10dp"
+        tools:background="@android:color/holo_red_dark" />
+
+</LinearLayout>

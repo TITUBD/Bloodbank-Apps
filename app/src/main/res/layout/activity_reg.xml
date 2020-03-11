@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context=".RegActivity">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Registration"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+    <EditText
+        android:id="@+id/name_id"
+        android:layout_width="match_parent"
+        android:hint="Username"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_below="@+id/user_id"
+        android:layout_width="match_parent"
+        android:hint="email"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/number_id"
+        android:layout_below="@+id/user_id"
+        android:layout_width="match_parent"
+        android:hint="number"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/City_id"
+        android:layout_below="@+id/user_id"
+        android:layout_width="match_parent"
+        android:hint="City"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/pass_id"
+        android:layout_below="@+id/user_id"
+        android:layout_width="match_parent"
+        android:hint="password"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/blood_id"
+        android:layout_below="@+id/pass_id"
+        android:layout_width="match_parent"
+        android:hint="Blood Group"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/loginButton_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_id"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:background="#99898B"
+        android:text="Login"
+        android:textColor="#ffffff"
+
+        tools:background="@android:color/holo_red_dark" />
+
+
+
+</LinearLayout>
